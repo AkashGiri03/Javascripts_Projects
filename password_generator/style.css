@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #45cbd7;
+    color: black;
+}
+.container{
+    margin-top: 10%;
+    margin-left: 30%;
+    background: rgb(62, 205, 162);
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px 8px rgb(25, 27, 28);
+}
+h1{
+    padding: 10px;
+    margin: 10px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    width: 100%;
+}
+.input-left{
+    width: 75%;
+    margin-left: 10px;
+}
+.input-right{
+    width: 25%;
+    margin-left: 22%;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.right{
+    margin-right: 10%;
+}
+button{
+    padding-left: 3px;
+    padding-right: 3px;
+    margin: 3px;
+}
+button i{
+    padding: 5px;
+}
+.row input{
+    width: 20px;
+    height: 20px;
+}
+#password{
+    height: 25px;
+}
